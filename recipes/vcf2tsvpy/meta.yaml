@@ -16,6 +16,11 @@ build:
     - {{ pin_subpackage('vcf2tsvpy', max_pin="x.x") }}
 
 requirements:
+  host:
+    - python
+    - pip
+    - setuptools
+    - wheel
   build:
     - curl
     - unzip
